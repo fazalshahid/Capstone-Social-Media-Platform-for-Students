@@ -1,0 +1,1752 @@
+<<<<<<< HEAD
+=======
+04/01/2018 07:03:00 PM  Client  sent a HTTP GET request for the Login page
+04/01/2018 07:03:01 PM  Client  sent a HTTP GET request for the Login page
+04/01/2018 07:04:14 PM  Client sent a HTTP POST request for login page
+04/01/2018 07:04:14 PM  Username entered: john@john.com  Password entered: john
+04/01/2018 07:04:14 PM  Server found a match for the username: john@john.com
+04/01/2018 07:04:14 PM  Server now checking if entered password matches the stored password
+04/01/2018 07:04:14 PM  Password matched now checking if account is active or not
+04/01/2018 07:04:14 PM  Account is active and logging the user in the website. Redirecting Client to the profile page
+04/01/2018 07:04:14 PM  Client john@john.com requested profile page
+04/01/2018 07:04:16 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:04:16 PM  The Last Post ID is: 83
+04/01/2018 07:04:16 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:04:16 PM Fetching all posts for user greater than lastID 
+04/01/2018 07:04:16 PM There are no new posts for the client 
+04/01/2018 07:04:20 PM  Client john@john.com wants to view their friend List
+04/01/2018 07:04:20 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:04:20 PM  The Last Post ID is: 
+04/01/2018 07:04:20 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/01/2018 07:04:20 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:04:22 PM  Client john@john.com sent a HTTP GET request and wants to view the friend requests they have receieved
+04/01/2018 07:04:22 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:04:22 PM  The Last Post ID is: 
+04/01/2018 07:04:22 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/01/2018 07:04:22 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:04:25 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:04:25 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:04:25 PM  The Last Post ID is: 
+04/01/2018 07:04:25 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/01/2018 07:04:28 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:04:28 PM  The Last Post ID is: 
+04/01/2018 07:04:28 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/01/2018 07:04:28 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:04:41 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:04:41 PM  The Last Post ID is: 
+04/01/2018 07:04:41 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/01/2018 07:04:41 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:04:51 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:04:51 PM  The Last Post ID is: 
+04/01/2018 07:04:51 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/01/2018 07:04:51 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:04:56 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:04:56 PM  The Last Post ID is: 
+04/01/2018 07:04:56 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/01/2018 07:04:56 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:05:04 PM  Client john@john.com wants to view their messages
+04/01/2018 07:05:04 PM chat_room exists
+04/01/2018 07:05:04 PM chat_room exists
+04/01/2018 07:05:04 PM chat_room exists
+04/01/2018 07:05:10 PM  Client john@john.com requested profile page
+04/01/2018 07:05:11 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:05:11 PM  The Last Post ID is: 83
+04/01/2018 07:05:11 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:05:11 PM Fetching all posts for user greater than lastID 
+04/01/2018 07:05:11 PM There are no new posts for the client 
+04/01/2018 07:05:17 PM  Client john@john.com wants to logout of the current sesssion. Logging out client and directing them back to index/login page
+04/01/2018 07:05:18 PM  Client  sent a HTTP GET request for the Login page
+04/01/2018 07:11:44 PM  Client  sent a HTTP GET request for the Login page
+04/01/2018 07:16:28 PM  Client  sent a HTTP GET request for the Login page
+04/01/2018 07:17:19 PM  Client  sent a HTTP GET request for the Login page
+04/01/2018 07:18:06 PM  Client  sent a HTTP GET request for the Login page
+04/01/2018 07:21:22 PM  Client  sent a HTTP GET request for the Login page
+04/01/2018 07:29:10 PM  Client  sent a HTTP GET request for the Login page
+04/01/2018 07:29:27 PM  Client sent a HTTP POST request for login page
+04/01/2018 07:29:27 PM  Username entered: john@john.com  Password entered: john
+04/01/2018 07:29:27 PM  Server found a match for the username: john@john.com
+04/01/2018 07:29:27 PM  Server now checking if entered password matches the stored password
+04/01/2018 07:29:27 PM  Password matched now checking if account is active or not
+04/01/2018 07:29:27 PM  Account is active and logging the user in the website. Redirecting Client to the profile page
+04/01/2018 07:29:28 PM  Client john@john.com requested profile page
+04/01/2018 07:29:28 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:29:28 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:29:28 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:29:28 PM  The Last Post ID is: 83
+04/01/2018 07:29:28 PM Fetching all posts for user greater than lastID 
+04/01/2018 07:29:28 PM There are no new posts for the client 
+04/01/2018 07:29:30 PM Not Found: /favicon.ico
+04/01/2018 07:29:37 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:29:37 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:29:37 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:29:37 PM  The Last Post ID is: 
+04/01/2018 07:29:37 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/01/2018 07:30:02 PM  Client john@john.com requested profile page
+04/01/2018 07:30:02 PM Not Found: /w3images/lights.jpg
+04/01/2018 07:30:02 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:30:02 PM  The Last Post ID is: 83
+04/01/2018 07:30:02 PM Fetching all posts for user greater than lastID 
+04/01/2018 07:30:02 PM There are no new posts for the client 
+04/01/2018 07:31:02 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:31:02 PM  The Last Post ID is: 83
+04/01/2018 07:31:02 PM Fetching all posts for user greater than lastID 
+04/01/2018 07:31:02 PM There are no new posts for the client 
+04/01/2018 07:32:02 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:32:02 PM  The Last Post ID is: 83
+04/01/2018 07:32:02 PM Fetching all posts for user greater than lastID 
+04/01/2018 07:32:02 PM There are no new posts for the client 
+04/01/2018 07:33:02 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 07:33:02 PM  The Last Post ID is: 83
+04/01/2018 07:33:02 PM Fetching all posts for user greater than lastID 
+04/01/2018 07:33:02 PM There are no new posts for the client 
+04/01/2018 07:34:20 PM  Client sent a HTTP POST request for login page
+04/01/2018 07:34:20 PM  Username entered: man@man.com  Password entered: man
+04/01/2018 07:34:20 PM  Client tried to login with a non-existing username
+04/01/2018 08:26:23 PM  Client  sent a HTTP GET request for the Login page
+04/01/2018 08:26:35 PM  Client sent a HTTP POST request for login page
+04/01/2018 08:26:35 PM  Username entered: john@john.com  Password entered: john
+04/01/2018 08:26:35 PM  Server found a match for the username: john@john.com
+04/01/2018 08:26:36 PM  Server now checking if entered password matches the stored password
+04/01/2018 08:26:36 PM  Password matched now checking if account is active or not
+04/01/2018 08:26:36 PM  Account is active and logging the user in the website. Redirecting Client to the profile page
+04/01/2018 08:26:36 PM  Client john@john.com requested profile page
+04/01/2018 08:26:37 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:26:37 PM  The Last Post ID is: 83
+04/01/2018 08:26:37 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:26:37 PM There are no new posts for the client 
+04/01/2018 08:26:37 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:26:40 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:26:40 PM  The Last Post ID is: 
+04/01/2018 08:26:40 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/01/2018 08:26:40 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:26:43 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1943, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/01/2018 08:27:29 PM  Client john@john.com requested profile page
+04/01/2018 08:27:29 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:27:30 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:27:30 PM  The Last Post ID is: 83
+04/01/2018 08:27:30 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:27:30 PM There are no new posts for the client 
+04/01/2018 08:27:56 PM  Client john@john.com requested profile page
+04/01/2018 08:27:56 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:27:57 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:27:57 PM  The Last Post ID is: 83
+04/01/2018 08:27:57 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:27:57 PM There are no new posts for the client 
+04/01/2018 08:28:58 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:28:58 PM  The Last Post ID is: 83
+04/01/2018 08:28:58 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:28:58 PM There are no new posts for the client 
+04/01/2018 08:29:58 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:29:58 PM  The Last Post ID is: 83
+04/01/2018 08:29:58 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:29:58 PM There are no new posts for the client 
+04/01/2018 08:30:58 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:30:58 PM  The Last Post ID is: 83
+04/01/2018 08:30:58 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:30:58 PM There are no new posts for the client 
+04/01/2018 08:31:59 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:31:59 PM  The Last Post ID is: 83
+04/01/2018 08:31:59 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:31:59 PM There are no new posts for the client 
+04/01/2018 08:32:03 PM  Client john@john.com requested profile page
+04/01/2018 08:32:04 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:32:04 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:32:04 PM  The Last Post ID is: 83
+04/01/2018 08:32:04 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:32:04 PM There are no new posts for the client 
+04/01/2018 08:32:05 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:32:06 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:32:06 PM  The Last Post ID is: 
+04/01/2018 08:32:06 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/01/2018 08:32:07 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1943, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/01/2018 08:32:13 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/01/2018 08:32:13 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1943, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/01/2018 08:32:56 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:32:56 PM  The Last Post ID is: 83
+04/01/2018 08:32:56 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:32:56 PM There are no new posts for the client 
+04/01/2018 08:32:56 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:32:58 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1943, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/01/2018 08:36:24 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1943, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/01/2018 08:36:46 PM  Client john@john.com requested profile page
+04/01/2018 08:36:46 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:36:46 PM  The Last Post ID is: 83
+04/01/2018 08:36:46 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:36:46 PM There are no new posts for the client 
+04/01/2018 08:36:46 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:36:56 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:36:56 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:36:56 PM  The Last Post ID is: 83
+04/01/2018 08:36:56 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:36:56 PM There are no new posts for the client 
+04/01/2018 08:37:59 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:37:59 PM  The Last Post ID is: 83
+04/01/2018 08:37:59 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:37:59 PM There are no new posts for the client 
+04/01/2018 08:38:40 PM  Client john@john.com requested profile page
+04/01/2018 08:38:41 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:38:41 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:38:41 PM  The Last Post ID is: 83
+04/01/2018 08:38:41 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:38:41 PM There are no new posts for the client 
+04/01/2018 08:39:41 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:39:41 PM  The Last Post ID is: 83
+04/01/2018 08:39:41 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:39:41 PM There are no new posts for the client 
+04/01/2018 08:40:33 PM  Client john@john.com requested profile page
+04/01/2018 08:40:34 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:40:34 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:40:34 PM  The Last Post ID is: 83
+04/01/2018 08:40:34 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:40:34 PM There are no new posts for the client 
+04/01/2018 08:41:34 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:41:34 PM  The Last Post ID is: 83
+04/01/2018 08:41:34 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:41:34 PM There are no new posts for the client 
+04/01/2018 08:42:15 PM  Client john@john.com requested profile page
+04/01/2018 08:42:15 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:42:15 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:42:15 PM  The Last Post ID is: 83
+04/01/2018 08:42:15 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:42:15 PM There are no new posts for the client 
+04/01/2018 08:43:03 PM  Client john@john.com requested profile page
+04/01/2018 08:43:03 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:43:03 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:43:03 PM  The Last Post ID is: 83
+04/01/2018 08:43:04 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:43:04 PM There are no new posts for the client 
+04/01/2018 08:43:30 PM  Client john@john.com requested profile page
+04/01/2018 08:43:31 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:43:31 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:43:31 PM  The Last Post ID is: 83
+04/01/2018 08:43:31 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:43:31 PM There are no new posts for the client 
+04/01/2018 08:44:31 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:44:31 PM  The Last Post ID is: 83
+04/01/2018 08:44:31 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:44:31 PM There are no new posts for the client 
+04/01/2018 08:45:29 PM  Client john@john.com requested profile page
+04/01/2018 08:45:29 PM Not Found: /w3images/lights.jpg
+04/01/2018 08:45:29 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:45:29 PM  The Last Post ID is: 83
+04/01/2018 08:45:29 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:45:29 PM There are no new posts for the client 
+04/01/2018 08:46:30 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:46:30 PM  The Last Post ID is: 83
+04/01/2018 08:46:30 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:46:30 PM There are no new posts for the client 
+04/01/2018 08:47:30 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:47:30 PM  The Last Post ID is: 83
+04/01/2018 08:47:30 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:47:30 PM There are no new posts for the client 
+04/01/2018 08:48:30 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:48:30 PM  The Last Post ID is: 83
+04/01/2018 08:48:30 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:48:30 PM There are no new posts for the client 
+04/01/2018 08:49:31 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:49:31 PM  The Last Post ID is: 83
+04/01/2018 08:49:31 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:49:31 PM There are no new posts for the client 
+04/01/2018 08:50:31 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:50:31 PM  The Last Post ID is: 83
+04/01/2018 08:50:31 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:50:31 PM There are no new posts for the client 
+04/01/2018 08:51:31 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:51:31 PM  The Last Post ID is: 83
+04/01/2018 08:51:31 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:51:31 PM There are no new posts for the client 
+04/01/2018 08:52:32 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:52:32 PM  The Last Post ID is: 83
+04/01/2018 08:52:32 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:52:32 PM There are no new posts for the client 
+04/01/2018 08:53:32 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:53:32 PM  The Last Post ID is: 83
+04/01/2018 08:53:32 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:53:32 PM There are no new posts for the client 
+04/01/2018 08:54:32 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:54:32 PM  The Last Post ID is: 83
+04/01/2018 08:54:32 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:54:32 PM There are no new posts for the client 
+04/01/2018 08:55:33 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:55:33 PM  The Last Post ID is: 83
+04/01/2018 08:55:33 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:55:33 PM There are no new posts for the client 
+04/01/2018 08:56:33 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:56:33 PM  The Last Post ID is: 83
+04/01/2018 08:56:33 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:56:33 PM There are no new posts for the client 
+04/01/2018 08:57:33 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:57:33 PM  The Last Post ID is: 83
+04/01/2018 08:57:33 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:57:33 PM There are no new posts for the client 
+04/01/2018 08:58:34 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/01/2018 08:58:34 PM  The Last Post ID is: 83
+04/01/2018 08:58:34 PM Fetching all posts for user greater than lastID 
+04/01/2018 08:58:34 PM There are no new posts for the client 
+04/02/2018 10:20:54 AM  Client john@john.com sent a HTTP GET request for the Login page
+04/02/2018 10:20:54 AM  Client john@john.com requested profile page
+04/02/2018 10:20:55 AM Not Found: /w3images/lights.jpg
+04/02/2018 10:20:55 AM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 10:20:55 AM  The Last Post ID is: 83
+04/02/2018 10:20:55 AM Fetching all posts for user greater than lastID 
+04/02/2018 10:20:55 AM There are no new posts for the client 
+04/02/2018 10:20:56 AM Not Found: /favicon.ico
+04/02/2018 10:20:58 AM  Client john@john.com wants to logout of the current sesssion. Logging out client and directing them back to index/login page
+04/02/2018 10:20:58 AM  Client  sent a HTTP GET request for the Login page
+04/02/2018 10:21:34 AM  Client has sent the form for the Registration Page via HTTP POST request
+04/02/2018 10:24:31 AM  Client  sent a HTTP GET request for the Login page
+04/02/2018 10:24:35 AM  Client  sent a HTTP GET request for the Login page
+04/02/2018 10:24:52 AM  Client sent a HTTP POST request for login page
+04/02/2018 10:24:52 AM  Username entered: david1@utoronto.ca  Password entered: david1
+04/02/2018 10:24:52 AM  Server found a match for the username: david1@utoronto.ca
+04/02/2018 10:24:53 AM  Server now checking if entered password matches the stored password
+04/02/2018 10:24:53 AM  Password matched now checking if account is active or not
+04/02/2018 10:24:53 AM  Account is active and logging the user in the website. Redirecting Client to the profile page
+04/02/2018 10:24:53 AM  Client david1@utoronto.ca requested profile page
+04/02/2018 10:24:53 AM  Client david1@utoronto.ca sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 10:24:53 AM  The Last Post ID is: 83
+04/02/2018 10:24:53 AM Fetching all posts for user greater than lastID 
+04/02/2018 10:24:53 AM There are no new posts for the client 
+04/02/2018 10:24:54 AM Not Found: /w3images/lights.jpg
+04/02/2018 10:24:58 AM Not Found: /w3images/lights.jpg
+04/02/2018 10:24:58 AM  Client david1@utoronto.ca sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 10:24:58 AM  The Last Post ID is: 
+04/02/2018 10:24:58 AM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 10:25:01 AM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 10:25:10 AM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 10:26:12 AM  Client david1@utoronto.ca wants to logout of the current sesssion. Logging out client and directing them back to index/login page
+04/02/2018 10:26:12 AM  Client  sent a HTTP GET request for the Login page
+<<<<<<< HEAD
+04/02/2018 04:16:20 PM  Client  sent a HTTP GET request for the Login page
+04/02/2018 04:16:28 PM  Client sent a HTTP POST request for login page
+04/02/2018 04:16:28 PM  Username entered: man@man.com  Password entered: man
+04/02/2018 04:16:28 PM  Client tried to login with a non-existing username
+04/02/2018 04:16:29 PM Not Found: /favicon.ico
+04/02/2018 04:16:35 PM  Client sent a HTTP POST request for login page
+04/02/2018 04:16:35 PM  Username entered: man@man.com  Password entered: man
+04/02/2018 04:16:35 PM  Client tried to login with a non-existing username
+04/02/2018 04:16:46 PM  Client sent a HTTP POST request for login page
+04/02/2018 04:16:46 PM  Username entered: john@john.com  Password entered: john
+04/02/2018 04:16:46 PM  Server found a match for the username: john@john.com
+04/02/2018 04:16:47 PM  Server now checking if entered password matches the stored password
+04/02/2018 04:16:47 PM  Password matched now checking if account is active or not
+04/02/2018 04:16:47 PM  Account is active and logging the user in the website. Redirecting Client to the profile page
+04/02/2018 04:16:47 PM  Client john@john.com requested profile page
+04/02/2018 04:16:48 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 04:16:48 PM  The Last Post ID is: 83
+04/02/2018 04:16:48 PM Fetching all posts for user greater than lastID 
+04/02/2018 04:16:48 PM There are no new posts for the client 
+04/02/2018 04:16:49 PM Not Found: /w3images/lights.jpg
+04/02/2018 04:16:51 PM Not Found: /w3images/lights.jpg
+04/02/2018 04:16:51 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 04:16:51 PM  The Last Post ID is: 
+04/02/2018 04:16:51 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 04:19:47 PM There are no new posts for the client 
+04/02/2018 04:19:50 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:19:50 PM Not Found: /group/47/undefined
+04/02/2018 04:20:47 PM There are no new posts for the client 
+04/02/2018 04:21:48 PM There are no new posts for the client 
+04/02/2018 04:22:48 PM There are no new posts for the client 
+04/02/2018 04:23:48 PM There are no new posts for the client 
+04/02/2018 04:24:49 PM There are no new posts for the client 
+04/02/2018 04:25:49 PM There are no new posts for the client 
+04/02/2018 04:26:50 PM There are no new posts for the client 
+04/02/2018 04:27:40 PM There are no new posts for the client 
+04/02/2018 04:27:44 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:27:44 PM Not Found: /group/47/undefined
+04/02/2018 04:28:27 PM There are no new posts for the client 
+04/02/2018 04:28:36 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:28:36 PM Not Found: /group/47/undefined
+04/02/2018 04:28:41 PM There are no new posts for the client 
+04/02/2018 04:28:54 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:28:54 PM Not Found: /group/47/undefined
+04/02/2018 04:28:58 PM There are no new posts for the client 
+04/02/2018 04:30:00 PM There are no new posts for the client 
+04/02/2018 04:31:01 PM There are no new posts for the client 
+04/02/2018 04:31:21 PM  Client john@john.com requested profile page
+04/02/2018 04:31:21 PM Not Found: /w3images/lights.jpg
+04/02/2018 04:31:22 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 04:31:22 PM  The Last Post ID is: 83
+04/02/2018 04:31:22 PM Fetching all posts for user greater than lastID 
+04/02/2018 04:31:22 PM There are no new posts for the client 
+04/02/2018 04:32:22 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 04:32:22 PM  The Last Post ID is: 83
+04/02/2018 04:32:22 PM Fetching all posts for user greater than lastID 
+04/02/2018 04:32:22 PM There are no new posts for the client 
+04/02/2018 04:33:12 PM  Client john@john.com requested profile page
+04/02/2018 04:33:13 PM Not Found: /w3images/lights.jpg
+04/02/2018 04:33:14 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 04:33:14 PM  The Last Post ID is: 83
+04/02/2018 04:33:14 PM Fetching all posts for user greater than lastID 
+04/02/2018 04:33:14 PM There are no new posts for the client 
+04/02/2018 04:33:20 PM  Client john@john.com sent a HTTP POST request and wants to submit a comment to a post
+04/02/2018 04:33:20 PM  The comment content is: ffffffffffffff
+04/02/2018 04:33:20 PM  The post id for the comment is: 82
+04/02/2018 04:33:20 PM  Saving the comment in the Comment Table
+04/02/2018 04:33:20 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:34:15 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 04:34:15 PM  The Last Post ID is: 83
+04/02/2018 04:34:15 PM Fetching all posts for user greater than lastID 
+04/02/2018 04:34:15 PM There are no new posts for the client 
+04/02/2018 04:35:16 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 04:35:16 PM  The Last Post ID is: 83
+04/02/2018 04:35:16 PM Fetching all posts for user greater than lastID 
+04/02/2018 04:35:16 PM There are no new posts for the client 
+04/02/2018 04:35:41 PM  Client john@john.com requested profile page
+04/02/2018 04:35:42 PM Not Found: /w3images/lights.jpg
+04/02/2018 04:35:42 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 04:35:42 PM  The Last Post ID is: 83
+04/02/2018 04:35:42 PM Fetching all posts for user greater than lastID 
+04/02/2018 04:35:42 PM There are no new posts for the client 
+04/02/2018 04:35:45 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 04:35:45 PM  The Last Post ID is: 
+04/02/2018 04:35:45 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 04:35:45 PM Not Found: /w3images/lights.jpg
+04/02/2018 04:35:47 PM There are no new posts for the client 
+04/02/2018 04:35:51 PM There are no new posts for the client 
+04/02/2018 04:36:06 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:36:06 PM Not Found: /group/34/undefined
+04/02/2018 04:36:52 PM There are no new posts for the client 
+04/02/2018 04:37:52 PM There are no new posts for the client 
+04/02/2018 04:38:52 PM There are no new posts for the client 
+04/02/2018 04:39:53 PM There are no new posts for the client 
+04/02/2018 04:40:32 PM There are no new posts for the client 
+04/02/2018 04:40:37 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:40:37 PM Not Found: /group/34/undefined
+04/02/2018 04:41:32 PM There are no new posts for the client 
+04/02/2018 04:42:33 PM There are no new posts for the client 
+04/02/2018 04:43:00 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:43:00 PM Not Found: /group/34/undefined
+04/02/2018 04:43:33 PM There are no new posts for the client 
+04/02/2018 04:44:28 PM There are no new posts for the client 
+04/02/2018 04:44:35 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:44:35 PM Not Found: /group/34/undefined
+04/02/2018 04:45:29 PM There are no new posts for the client 
+04/02/2018 04:46:29 PM There are no new posts for the client 
+04/02/2018 04:47:29 PM There are no new posts for the client 
+04/02/2018 04:48:25 PM There are no new posts for the client 
+04/02/2018 04:48:30 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:48:39 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:49:26 PM There are no new posts for the client 
+04/02/2018 04:50:12 PM There are no new posts for the client 
+04/02/2018 04:50:19 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:51:13 PM There are no new posts for the client 
+04/02/2018 04:52:13 PM There are no new posts for the client 
+04/02/2018 04:53:13 PM There are no new posts for the client 
+04/02/2018 04:54:14 PM There are no new posts for the client 
+04/02/2018 04:55:14 PM There are no new posts for the client 
+04/02/2018 04:56:14 PM There are no new posts for the client 
+04/02/2018 04:57:15 PM There are no new posts for the client 
+04/02/2018 04:58:15 PM There are no new posts for the client 
+04/02/2018 04:59:00 PM There are no new posts for the client 
+04/02/2018 04:59:05 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 04:59:15 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:00:01 PM There are no new posts for the client 
+04/02/2018 05:01:02 PM There are no new posts for the client 
+04/02/2018 05:02:03 PM There are no new posts for the client 
+04/02/2018 05:03:04 PM There are no new posts for the client 
+04/02/2018 05:04:05 PM There are no new posts for the client 
+04/02/2018 05:05:06 PM There are no new posts for the client 
+04/02/2018 05:05:42 PM  Client john@john.com requested profile page
+04/02/2018 05:05:42 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:05:43 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:05:43 PM  The Last Post ID is: 83
+04/02/2018 05:05:43 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:05:43 PM There are no new posts for the client 
+04/02/2018 05:05:46 PM There are no new posts for the client 
+04/02/2018 05:06:46 PM There are no new posts for the client 
+04/02/2018 05:07:46 PM There are no new posts for the client 
+04/02/2018 05:08:47 PM There are no new posts for the client 
+04/02/2018 05:09:10 PM  Client john@john.com requested profile page
+04/02/2018 05:09:10 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:09:11 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:09:11 PM  The Last Post ID is: 83
+04/02/2018 05:09:11 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:09:11 PM There are no new posts for the client 
+04/02/2018 05:09:19 PM  Client john@john.com sent a HTTP POST request and wants to submit a comment to a post
+04/02/2018 05:09:19 PM  The comment content is: cool
+04/02/2018 05:09:19 PM  The post id for the comment is: 80
+04/02/2018 05:09:19 PM  Saving the comment in the Comment Table
+04/02/2018 05:09:19 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:09:26 PM  Client john@john.com requested profile page
+04/02/2018 05:09:26 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:09:26 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:09:26 PM  The Last Post ID is: 83
+04/02/2018 05:09:26 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:09:26 PM There are no new posts for the client 
+04/02/2018 05:10:28 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:10:28 PM  The Last Post ID is: 83
+04/02/2018 05:10:28 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:10:28 PM There are no new posts for the client 
+04/02/2018 05:11:29 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:11:29 PM  The Last Post ID is: 83
+04/02/2018 05:11:29 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:11:29 PM There are no new posts for the client 
+04/02/2018 05:11:33 PM  Client john@john.com requested profile page
+04/02/2018 05:11:34 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:11:34 PM  The Last Post ID is: 83
+04/02/2018 05:11:34 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:11:34 PM There are no new posts for the client 
+04/02/2018 05:11:34 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:11:37 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:11:37 PM  The Last Post ID is: 
+04/02/2018 05:11:37 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:11:37 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:11:39 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:11:44 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:11:59 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:14:23 PM  Client john@john.com requested profile page
+04/02/2018 05:14:24 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:14:24 PM  The Last Post ID is: 83
+04/02/2018 05:14:24 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:14:24 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:14:24 PM There are no new posts for the client 
+04/02/2018 05:14:28 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:14:28 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:14:28 PM  The Last Post ID is: 
+04/02/2018 05:14:28 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:14:31 PM There are no new posts for the client 
+04/02/2018 05:14:42 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:14:48 PM  Client john@john.com requested profile page
+04/02/2018 05:14:49 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:14:49 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:14:49 PM  The Last Post ID is: 83
+04/02/2018 05:14:49 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:14:49 PM There are no new posts for the client 
+04/02/2018 05:14:52 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:14:52 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:14:52 PM  The Last Post ID is: 
+04/02/2018 05:14:52 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:14:55 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:15:04 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:16:22 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:16:27 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:16:34 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:17:23 PM  Client john@john.com requested profile page
+04/02/2018 05:17:24 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:17:24 PM  The Last Post ID is: 83
+04/02/2018 05:17:24 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:17:24 PM There are no new posts for the client 
+04/02/2018 05:17:24 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:17:34 PM  Client john@john.com sent a HTTP POST request and wants to submit a comment to a post
+04/02/2018 05:17:34 PM  The comment content is: ddddddddddd
+04/02/2018 05:17:34 PM  The post id for the comment is: 77
+04/02/2018 05:17:34 PM  Saving the comment in the Comment Table
+04/02/2018 05:17:34 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:17:40 PM  Client john@john.com sent a HTTP POST request and wants to submit a comment to a post
+04/02/2018 05:17:40 PM  The comment content is: dddddddddddfffffffffffff
+04/02/2018 05:17:40 PM  The post id for the comment is: 77
+04/02/2018 05:17:40 PM  Saving the comment in the Comment Table
+04/02/2018 05:17:40 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:18:24 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:18:24 PM  The Last Post ID is: 83
+04/02/2018 05:18:24 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:18:24 PM There are no new posts for the client 
+04/02/2018 05:19:24 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:19:24 PM  The Last Post ID is: 83
+04/02/2018 05:19:24 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:19:24 PM There are no new posts for the client 
+04/02/2018 05:20:26 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:20:26 PM  The Last Post ID is: 83
+04/02/2018 05:20:26 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:20:26 PM There are no new posts for the client 
+04/02/2018 05:21:27 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:21:27 PM  The Last Post ID is: 83
+04/02/2018 05:21:27 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:21:27 PM There are no new posts for the client 
+04/02/2018 05:22:13 PM  Client john@john.com requested profile page
+04/02/2018 05:22:13 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:22:14 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:22:14 PM  The Last Post ID is: 83
+04/02/2018 05:22:14 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:22:14 PM There are no new posts for the client 
+04/02/2018 05:22:19 PM  Client john@john.com wants to like a Post
+04/02/2018 05:22:19 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:22:22 PM  Client john@john.com wants to like a Post
+04/02/2018 05:22:22 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:22:26 PM  Client john@john.com requested profile page
+04/02/2018 05:22:27 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:22:27 PM  The Last Post ID is: 83
+04/02/2018 05:22:27 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:22:27 PM There are no new posts for the client 
+04/02/2018 05:22:27 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:22:28 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:22:28 PM  The Last Post ID is: 
+04/02/2018 05:22:28 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:22:28 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:22:30 PM There are no new posts for the client 
+04/02/2018 05:22:36 PM  Client john@john.com requested profile page
+04/02/2018 05:22:37 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:22:37 PM  The Last Post ID is: 83
+04/02/2018 05:22:37 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:22:37 PM There are no new posts for the client 
+04/02/2018 05:22:37 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:22:40 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:22:40 PM  The Last Post ID is: 
+04/02/2018 05:22:40 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:22:40 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:22:42 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:22:43 PM  Client john@john.com wants to like a Post
+04/02/2018 05:22:43 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:22:44 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:22:45 PM  Client john@john.com wants to like a Post
+04/02/2018 05:22:45 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:22:46 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:23:18 PM  Client john@john.com requested profile page
+04/02/2018 05:23:18 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:23:19 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:23:19 PM  The Last Post ID is: 83
+04/02/2018 05:23:19 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:23:19 PM There are no new posts for the client 
+04/02/2018 05:23:21 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:23:21 PM  The Last Post ID is: 
+04/02/2018 05:23:21 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:23:21 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:23:22 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:23:24 PM  Client john@john.com wants to like a Post
+04/02/2018 05:23:24 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:23:24 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:23:26 PM  Client john@john.com wants to like a Post
+04/02/2018 05:23:26 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:23:26 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:23:37 PM  Client john@john.com requested profile page
+04/02/2018 05:23:38 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:23:38 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:23:38 PM  The Last Post ID is: 83
+04/02/2018 05:23:38 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:23:38 PM There are no new posts for the client 
+04/02/2018 05:24:38 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:24:38 PM  The Last Post ID is: 83
+04/02/2018 05:24:38 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:24:38 PM There are no new posts for the client 
+04/02/2018 05:25:39 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:25:39 PM  The Last Post ID is: 83
+04/02/2018 05:25:39 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:25:39 PM There are no new posts for the client 
+04/02/2018 05:25:49 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:25:49 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:25:49 PM  The Last Post ID is: 
+04/02/2018 05:25:49 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:25:50 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:25:53 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:26:00 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:26:02 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:02 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:05 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:05 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:26:05 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:26:06 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:06 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:07 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:07 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:26:07 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:26:07 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:07 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:07 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:07 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:26:07 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:26:08 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:08 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:08 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:08 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:26:08 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:26:08 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:08 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:08 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:08 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:26:08 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:26:09 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:09 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:09 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:09 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:26:09 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:26:09 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:09 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:09 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:09 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:26:09 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:26:10 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:10 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:11 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:11 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:26:11 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:26:11 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:11 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:11 PM  Client john@john.com wants to see who has liked the post
+04/02/2018 05:26:11 PM Post Found. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:15 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:15 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:26:15 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:26:16 PM  Client john@john.com wants to see who has liked the post
+04/02/2018 05:26:16 PM Post Found. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:19 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:19 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:20 PM  Client john@john.com wants to see who has liked the post
+04/02/2018 05:26:20 PM Post Found. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:26:28 PM  Client john@john.com requested profile page
+04/02/2018 05:26:29 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:26:29 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:26:29 PM  The Last Post ID is: 83
+04/02/2018 05:26:29 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:26:29 PM There are no new posts for the client 
+04/02/2018 05:26:36 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:26:36 PM  The Last Post ID is: 
+04/02/2018 05:26:36 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 762, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:26:36 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:26:38 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1944, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:26:40 PM  Client john@john.com wants to like a Post
+04/02/2018 05:26:40 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:33:36 PM  Client john@john.com wants to like a Post
+04/02/2018 05:33:36 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:33:36 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:33:39 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1946, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:33:42 PM  Client john@john.com wants to like a Post
+04/02/2018 05:33:42 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:33:55 PM  Client john@john.com requested profile page
+04/02/2018 05:33:56 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:33:56 PM  The Last Post ID is: 83
+04/02/2018 05:33:56 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:33:56 PM There are no new posts for the client 
+04/02/2018 05:33:56 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:33:58 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:33:58 PM  The Last Post ID is: 
+04/02/2018 05:33:58 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:33:58 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:34:00 PM There are no new posts for the client 
+04/02/2018 05:34:04 PM There are no new posts for the client 
+04/02/2018 05:34:05 PM  Client john@john.com wants to like a Post
+04/02/2018 05:34:05 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:34:11 PM There are no new posts for the client 
+04/02/2018 05:34:12 PM  Client john@john.com wants to like a Post
+04/02/2018 05:34:12 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:34:12 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:35:11 PM There are no new posts for the client 
+04/02/2018 05:36:12 PM There are no new posts for the client 
+04/02/2018 05:37:12 PM There are no new posts for the client 
+04/02/2018 05:38:12 PM There are no new posts for the client 
+04/02/2018 05:39:13 PM There are no new posts for the client 
+04/02/2018 05:40:13 PM There are no new posts for the client 
+04/02/2018 05:40:21 PM There are no new posts for the client 
+04/02/2018 05:40:28 PM  Client john@john.com wants to like a Post
+04/02/2018 05:40:28 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:41:22 PM There are no new posts for the client 
+04/02/2018 05:42:22 PM There are no new posts for the client 
+04/02/2018 05:43:22 PM There are no new posts for the client 
+04/02/2018 05:44:23 PM There are no new posts for the client 
+04/02/2018 05:45:23 PM There are no new posts for the client 
+04/02/2018 05:46:23 PM There are no new posts for the client 
+04/02/2018 05:47:24 PM There are no new posts for the client 
+04/02/2018 05:47:46 PM There are no new posts for the client 
+04/02/2018 05:47:51 PM  Client john@john.com requested profile page
+04/02/2018 05:47:52 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:47:52 PM  The Last Post ID is: 83
+04/02/2018 05:47:52 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:47:52 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:47:52 PM There are no new posts for the client 
+04/02/2018 05:47:56 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:47:56 PM  The Last Post ID is: 
+04/02/2018 05:47:56 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:47:56 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:47:58 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1948, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 05:48:01 PM  Client john@john.com wants to like a Post
+04/02/2018 05:48:01 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:48:03 PM  Client john@john.com wants to like a Post
+04/02/2018 05:48:03 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:48:03 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:48:06 PM  Client john@john.com wants to like a Post
+04/02/2018 05:48:06 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:48:06 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:48:12 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 05:48:18 PM  Client john@john.com requested profile page
+04/02/2018 05:48:19 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:48:19 PM  The Last Post ID is: 83
+04/02/2018 05:48:19 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:48:19 PM There are no new posts for the client 
+04/02/2018 05:48:19 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:49:19 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:49:19 PM  The Last Post ID is: 83
+04/02/2018 05:49:19 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:49:19 PM There are no new posts for the client 
+04/02/2018 05:49:33 PM  Client john@john.com wants to like a Post
+04/02/2018 05:49:33 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:49:34 PM  Client john@john.com wants to like a Post
+04/02/2018 05:49:34 PM Post Found. And user has already liked it, so now unliking it
+04/02/2018 05:49:34 PM Decrementing likes count for this post and removing user from liked_by field
+04/02/2018 05:49:36 PM  Client john@john.com wants to like a Post
+04/02/2018 05:49:36 PM Post Found and not previously liked by user. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:49:39 PM  Client john@john.com wants to see who has liked the post
+04/02/2018 05:49:39 PM Post Found. Incrementing Like counter and adding user to liked_by field 
+04/02/2018 05:50:19 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:50:19 PM  The Last Post ID is: 83
+04/02/2018 05:50:19 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:50:19 PM There are no new posts for the client 
+04/02/2018 05:51:18 PM  Client john@john.com requested profile page
+04/02/2018 05:51:18 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:51:18 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:51:18 PM  The Last Post ID is: 83
+04/02/2018 05:51:18 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:51:18 PM There are no new posts for the client 
+04/02/2018 05:51:51 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:51:51 PM  The Last Post ID is: 
+04/02/2018 05:51:51 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:51:51 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:54:38 PM  Client john@john.com requested profile page
+04/02/2018 05:54:39 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:54:39 PM  The Last Post ID is: 83
+04/02/2018 05:54:39 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:54:39 PM There are no new posts for the client 
+04/02/2018 05:54:39 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:54:54 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:54:54 PM  The Last Post ID is: 
+04/02/2018 05:54:54 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:54:54 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:55:01 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:55:01 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:55:01 PM  The Last Post ID is: 
+04/02/2018 05:55:01 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:55:06 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:55:06 PM  The Last Post ID is: 
+04/02/2018 05:55:06 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:55:06 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:55:17 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:55:17 PM  The Last Post ID is: 
+04/02/2018 05:55:17 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:55:17 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:55:36 PM  Client john@john.com sent a HTTP GET request and wants to view the friend requests they have receieved
+04/02/2018 05:55:36 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:55:36 PM  The Last Post ID is: 
+04/02/2018 05:55:36 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:55:36 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:55:43 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:55:43 PM  The Last Post ID is: 
+04/02/2018 05:55:43 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:55:43 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:57:00 PM  Client john@john.com sent a HTTP GET request and wants to view the friend requests they have receieved
+04/02/2018 05:57:00 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:57:00 PM  The Last Post ID is: 
+04/02/2018 05:57:00 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:57:00 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:57:12 PM  Client john@john.com wants to view their friend List
+04/02/2018 05:57:12 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:57:12 PM  The Last Post ID is: 
+04/02/2018 05:57:12 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:57:13 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:57:21 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:57:21 PM  The Last Post ID is: -1
+04/02/2018 05:57:21 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:57:21 PM Sending new posts to the client 
+04/02/2018 05:57:29 PM  Client john@john.com requested profile page
+04/02/2018 05:57:30 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:57:30 PM  The Last Post ID is: 83
+04/02/2018 05:57:30 PM Fetching all posts for user greater than lastID 
+04/02/2018 05:57:30 PM There are no new posts for the client 
+04/02/2018 05:57:30 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:57:32 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:57:32 PM  The Last Post ID is: 
+04/02/2018 05:57:32 PM Not Found: /w3images/lights.jpg
+04/02/2018 05:57:32 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:57:34 PM There are no new posts for the client 
+04/02/2018 05:57:42 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:57:42 PM  The Last Post ID is: 
+04/02/2018 05:57:42 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 05:57:45 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 05:57:45 PM  The Last Post ID is: 
+04/02/2018 05:57:45 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+=======
+>>>>>>> 2c94effb30c0f0c5ba57e7242ce81ba006db2e89
+>>>>>>> 6ced2e38894a8ca7d64978b89366377183c4d259
+04/02/2018 06:05:22 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:05:22 PM  The Last Post ID is: 
+04/02/2018 06:05:22 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 06:05:31 PM  Client john@john.com requested profile page
+04/02/2018 06:05:32 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:05:32 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:05:32 PM  The Last Post ID is: 83
+04/02/2018 06:05:32 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:05:32 PM There are no new posts for the client 
+04/02/2018 06:05:37 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:05:37 PM  The Last Post ID is: 
+04/02/2018 06:05:37 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 06:05:37 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:06:00 PM Not Found: /undefined
+04/02/2018 06:06:11 PM  Client john@john.com requested profile page
+04/02/2018 06:06:12 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:06:12 PM  The Last Post ID is: 83
+04/02/2018 06:06:12 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:06:12 PM There are no new posts for the client 
+04/02/2018 06:06:12 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:06:17 PM  Client john@john.com requested profile page
+04/02/2018 06:06:18 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:06:18 PM  The Last Post ID is: 83
+04/02/2018 06:06:18 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:06:18 PM There are no new posts for the client 
+04/02/2018 06:06:18 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:06:20 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:06:20 PM  The Last Post ID is: 
+04/02/2018 06:06:20 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 06:06:20 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:06:24 PM Internal Server Error: /course_check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 1948, in course_check_new_post
+    posts= get_all_posts_related_to_course(int(course_id))
+TypeError: int() argument must be a string or a number, not 'NoneType'
+04/02/2018 06:06:26 PM  Client john@john.com requested profile page
+04/02/2018 06:06:27 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:06:27 PM  The Last Post ID is: 83
+04/02/2018 06:06:27 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:06:27 PM There are no new posts for the client 
+04/02/2018 06:06:27 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:07:27 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:07:27 PM  The Last Post ID is: 83
+04/02/2018 06:07:27 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:07:27 PM There are no new posts for the client 
+04/02/2018 06:08:28 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:08:28 PM  The Last Post ID is: 83
+04/02/2018 06:08:28 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:08:28 PM There are no new posts for the client 
+04/02/2018 06:09:28 PM  Client john@john.com wants to logout of the current sesssion. Logging out client and directing them back to index/login page
+04/02/2018 06:09:28 PM  Client  sent a HTTP GET request for the Login page
+04/02/2018 06:09:38 PM  Client sent a HTTP POST request for login page
+04/02/2018 06:09:38 PM  Username entered: john@john.com  Password entered: john
+04/02/2018 06:09:38 PM  Server found a match for the username: john@john.com
+04/02/2018 06:09:39 PM  Server now checking if entered password matches the stored password
+04/02/2018 06:09:39 PM  Password matched now checking if account is active or not
+04/02/2018 06:09:39 PM  Account is active and logging the user in the website. Redirecting Client to the profile page
+04/02/2018 06:09:39 PM  Client john@john.com requested profile page
+04/02/2018 06:09:40 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:09:40 PM  The Last Post ID is: 83
+04/02/2018 06:09:40 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:09:40 PM There are no new posts for the client 
+04/02/2018 06:09:40 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:09:50 PM  Client john@john.com sent a HTTP POST request and wants to submit a post to the wall
+04/02/2018 06:09:50 PM  The post content is: kkkkkkk
+04/02/2018 06:09:50 PM  Saving the post in the Post database
+04/02/2018 06:09:50 PM  Send a status=204 response back to Client. This should reload the page on client side(as instructed by ajax success function on the frontend)
+04/02/2018 06:09:50 PM  Client john@john.com requested profile page
+04/02/2018 06:09:51 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:09:51 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:09:51 PM  The Last Post ID is: 84
+04/02/2018 06:09:51 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:09:51 PM There are no new posts for the client 
+04/02/2018 06:10:52 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:10:52 PM  The Last Post ID is: 84
+04/02/2018 06:10:52 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:10:52 PM There are no new posts for the client 
+04/02/2018 06:11:52 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:11:52 PM  The Last Post ID is: 84
+04/02/2018 06:11:52 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:11:52 PM There are no new posts for the client 
+04/02/2018 06:12:52 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:12:52 PM  The Last Post ID is: 84
+04/02/2018 06:12:52 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:12:52 PM There are no new posts for the client 
+04/02/2018 06:12:57 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:12:57 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:12:57 PM  The Last Post ID is: 
+04/02/2018 06:12:57 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 06:13:02 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:13:02 PM  The Last Post ID is: 
+04/02/2018 06:13:02 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 06:13:02 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:13:06 PM  Client john@john.com sent a HTTP GET request and wants to view the friend requests they have receieved
+04/02/2018 06:13:06 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:13:06 PM  The Last Post ID is: 
+04/02/2018 06:13:06 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:13:06 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 06:13:09 PM  Client john@john.com wants to view their friend List
+04/02/2018 06:13:10 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:13:10 PM  The Last Post ID is: 
+04/02/2018 06:13:10 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 06:13:10 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:16:35 PM  Client john@john.com requested profile page
+04/02/2018 06:16:35 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:16:35 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:16:35 PM  The Last Post ID is: 84
+04/02/2018 06:16:35 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:16:35 PM There are no new posts for the client 
+04/02/2018 06:16:40 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:16:40 PM  The Last Post ID is: 
+04/02/2018 06:16:40 PM Internal Server Error: /check_new_post
+Traceback (most recent call last):
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Linux/env_capstone/local/lib/python2.7/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Linux/capstone_final3/capstone/basic_app/views.py", line 764, in check_new_post
+    new_posts= posts.filter(id__gt = int(receivedID))
+ValueError: invalid literal for int() with base 10: ''
+04/02/2018 06:16:41 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:16:54 PM  Client john@john.com requested profile page
+04/02/2018 06:16:54 PM Not Found: /w3images/lights.jpg
+04/02/2018 06:16:54 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:16:54 PM  The Last Post ID is: 84
+04/02/2018 06:16:54 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:16:54 PM There are no new posts for the client 
+04/02/2018 06:17:55 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:17:55 PM  The Last Post ID is: 84
+04/02/2018 06:17:55 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:17:55 PM There are no new posts for the client 
+04/02/2018 06:18:55 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:18:55 PM  The Last Post ID is: 84
+04/02/2018 06:18:55 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:18:55 PM There are no new posts for the client 
+04/02/2018 06:19:55 PM  Client john@john.com sent a HTTP GET request and wants to check if a new post has appeared
+04/02/2018 06:19:55 PM  The Last Post ID is: 84
+04/02/2018 06:19:55 PM Fetching all posts for user greater than lastID 
+04/02/2018 06:19:55 PM There are no new posts for the client 
